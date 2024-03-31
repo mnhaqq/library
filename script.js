@@ -1,6 +1,7 @@
 const myLibrary = [new Book('Crime', 'Dostoyvskey', 700), new Book('Crime and punishment', 'Dostoyvskey', 700)];
 const container = document.querySelector(".books");
 
+displayBooks();
 
 function Book(name, author, numPages) {
     this.name = name;
@@ -37,5 +38,3 @@ function displayBooks() {
         container.appendChild(currBook);
     }
 }
-
-displayBooks()

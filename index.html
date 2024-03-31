@@ -12,6 +12,47 @@
 <body>
     <div class="header">My Library</div>
 
-    <div class="books"></div>
+    <div class="body">
+        
+        <div class="sidebar">
+            <div class="sidebar-header">Add New Book</div>
+            <form action="" method="post" class="form">
+                <div class="book-input">
+                    <label for="book-name">Name of Book</label>
+                    <input type="text" name="book-name" id="book-name">
+                </div>
+
+                <div class="book-input">
+                    <label for="book-author">Name of Author</label>
+                    <input type="text" name="book-author" id="book-author">
+                </div>
+                
+                <div class="book-input">
+                    <label for="book-pages">Number of Pages</label>
+                    <input type="number" name="book-pages" id="book-pages">
+                </div>
+
+                <div class="book-input">
+                    <legend>Have you read the book?</legend>
+                    <div>
+                        <div>
+                            <input type="radio" name="read" id="has-read">
+                            <label for="has-read">Yes</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="read" id="not-read">
+                            <label for="not-read">No</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-button">
+                    <button type="submit">Add Book</button>
+                </div>
+            </form>
+        </div>
+        <div class="books"></div>
+    </div>
 </body>
 </html>
