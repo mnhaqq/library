@@ -49,15 +49,6 @@ body {
     gap: 1rem;
 }
 
-.book-input {
-    gap: 1rem;
-}
-
-.book-input > div {
-    display: flex;
-    gap: 2rem;
-}
-
 .sidebar-button {
     display: flex;
     justify-content: center;
@@ -101,5 +92,4 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* flex-wrap: wrap; */
 }
