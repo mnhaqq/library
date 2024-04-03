@@ -6,11 +6,13 @@ submitButton.addEventListener("click", addBookToLibrary, false);
 
 displayBooks();
 
-function Book(name, author, numPages, hasRead) {
-    this.name = name;
-    this.author = author;
-    this.numPages = numPages;
-    this.hasRead = hasRead;
+class Book {
+    constructor(name, author, numPages, hasRead) {
+        this.name = name;
+        this.author = author;
+        this.numPages = numPages;
+        this.hasRead = hasRead;
+    }
 }
 
 function displayBooks() {
